@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#hero" class="title">
+                <h1 class="logo">weCoders</h1>
+            </a>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero" class="hero">
+        <img src="images/hero.gif" alt="">
+    </section>
+
+    <section id="about" class="about-us">
+        <div class="about-content">
+            <h2>WHO WE ARE?</h2>
+            <p>We are a renowned software development company. We develop and test websites. Our journey started in
+                2000.</p>
+            <a href="javascript:void(0);" class="read-more-button">Read More</a>
+        </div>
+        <div class="about-image">
+            <img src="images/about.jpg" alt="About Us Image">
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="section-heading">WHAT WE DO?</h2>
+        <div class="features">
+            <div class="feature">
+                <img src="images/service1.jpg" alt="Service 1">
+                <h3>Web Development</h3>
+                <p>We build interactive websites for the best user experience.</p>
+                <a href="javascript:void(0);" class="read-more-button">Read More</a>
+            </div>
+            <div class="feature">
+                <img src="images/service2.jpg" alt="Service 2">
+                <h3>Mobile App Development</h3>
+                <p>We build interactive mobile apps for the best user experience.</p>
+                <a href="javascript:void(0);" class="read-more-button">Read More</a>
+            </div>
+            <div class="feature">
+                <img src="images/service3.jpg" alt="Service 3">
+                <h3>Software Testing</h3>
+                <p>We test software for the best user experience.</p>
+                <a href="javascript:void(0);" class="read-more-button">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2 class="form-heading">CONNECT WITH US</h2>
+            <div class="contact-content-inner">
+                <div class="contact-image">
+                    <img src="images/contact.jpg" alt="Contact Image">
+                </div>
+                <div class="contact-form">
+                    <form action="index.html">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name here..">
+                        <input type="text" id="email" name="email" placeholder="Your email here..">
+                        <select id="country" name="country">
+                            <option value="" disabled selected>Select Country..</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="India">India</option>
+                            <option value="Australia">Australia</option>
+                        </select>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                        <input type="button" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2023 weCoders</p>
+    </footer>
+</body>
+
+</html>
